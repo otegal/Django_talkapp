@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block title %}
+Djangoで作ったSNSアプリ
+{% endblock %}
+
+{% block content %}
+<div class="jumbotron">
+  <h1>Djangoで作ったSNSアプリ</h1>
+  <p>本アプリはDjangoで作成したSNSクローンです。</p>
+  <p>未登録の方は下記ボタン[登録画面]を押して登録をお願いします。</p>
+  <h2>環境</h2>
+  <p>
+    フロント周り : Bootstrap<br>
+    サーバサイド : Python 3.4<br>
+    フレームワーク : Django 1.11<br>
+    データベース : PostgreSQL 9.3<br>
+    開発環境 : Cloud9
+  </p>
+  <a class="btn btn-primary" href="{% url 'user_create' %}">登録画面へ</a>
+</div>
+{% endblock %}
