@@ -23,9 +23,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 's=++43d$+z(82t^v$jnhp#frlfq!afspy27=t*l$cl%_&v#^26'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ["mysite-talkapp-hhiroki.c9users.io"]
+ALLOWED_HOSTS = ["mysite-talkapp-hhiroki.c9users.io","fast-sea-74413.herokuapp.com"]
 SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
 
 
